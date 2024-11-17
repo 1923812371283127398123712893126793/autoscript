@@ -30,7 +30,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/emmkash2070/autoscript/main/ubuntu/menu.zip
+    wget https://github.com/1923812371283127398123712893126793/autoscript/raw/refs/heads/main/ubuntu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
